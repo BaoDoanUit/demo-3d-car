@@ -90,9 +90,9 @@ const scene = new THREE.Scene()
 const floor = new THREE.Mesh(
     new THREE.PlaneGeometry(10, 10),
     new THREE.MeshStandardMaterial({
-        color: '#444444',
+        color: '#fffff',
         metalness: 0,
-        roughness: 0.5
+        roughness: 0.8
     })
 )
 floor.receiveShadow = true
